@@ -1,0 +1,3 @@
+<App Theme="Basic" ClearColor="1, 1, 1, 1">
+    <Button Text="Play" Clicked="ClickPlay" />
+</App>
