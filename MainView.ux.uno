@@ -44,7 +44,7 @@ public static extern(android) class Business
             @Override public boolean onResult(int requestCode, int resultCode, android.content.Intent data) {
                 return @{OnRecieved(int,int,Java.Object):Call(requestCode, resultCode, data)};
             }
-        }
+        };
         com.fuse.Activity.subscribeToResults(l);
         return l;
     @}
